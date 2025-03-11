@@ -1,0 +1,44 @@
+1. Implement Promise.all
+2. Implement a function which extends Array.prototype
+3. Implement a dropdown component.
+4. Difference between localStorage and cookies.
+
+Algorithm:
+1. Merge two sorted integer arrays, remove duplicates.
+2. You have an image on a page, write css and js so that when mouse is over the image, it rotates 180 deg with 1 sec animation.
+3. Given a list of points, find out if any four of them form a square. Return 'true' if possible, else 'false'.
+Examples: [[0, 0], [2, 0], [1, 1], [0, -1], [-1, -1], [0, 2], [0, 1], [1,0]] -> true
+4. Check for balanced brackets in a string.
+5. Given two nodes, return the section of the tree between these two nodes.
+6. Find the islands in a grid of land and sea.
+
+
+What Hooks have you used?
+Talk about the detail of useEffect.
+What is the dependency array for? How does it work?
+Why does useEffect only execute once when the component is mounted if the dependency array is empty?
+What happens if you put an object or an array in the dependency array?
+What happens if a ref is passed in the dependency array?
+What is the difference between useLayoutEffect and useEffect? When should you which?
+
+
+Please talk about HTTP caching.
+Between eTag or Last Modified, which one is preferred? Why?
+What is the response body of 304?
+
+
+First is on Event Loop, Microtasks, and Macrotasks, (see this article for details)
+Second is a JavaScript whiteboard question, which was to implement .get of lodash.
+
+What is the difference between a Map object in JavaScript and a general object?
+What is the current trend of JavaScript?
+What is new in React 18
+This round ended with a whiteboard question, which was a LeetCode Medium string question.
+
+What problems does React Fiber solve?
+How does HTTP work?
+What is the s in HTTPs?
+
+Finally, there is a front-end system design question. It took about 20 minutes to discuss how to design a Typeahead front-end.
+
+After the three technical interviews, I feel that they pretty much covered everything from JavaScript, React, Networking, algorithm and system design. So if you want to prepare for the TikTok frontend interview, you need to prepare a lot!
