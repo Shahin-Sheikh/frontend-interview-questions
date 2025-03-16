@@ -1,0 +1,67 @@
+CSS: Cascading Style Sheets
+
+Reset default margins and padding * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Flexbox for the main layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+header,
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.main-wrapper {
+  display: flex; /* Nested Flexbox for sidebar and content */
+  flex: 1; /* Allows this section to grow and fill space */
+}
+
+aside {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  width: 200px; /* Fixed sidebar width */
+}
+
+main {
+  flex: 1; /* Takes remaining space */
+  padding: 1rem;
+}
+
+/* Grid for the content cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-wrapper {
+    flex-direction: column; /* Stack sidebar and main content */
+  }
+  aside {
+    width: 100%; /* Full width on small screens */
+  }
+}
