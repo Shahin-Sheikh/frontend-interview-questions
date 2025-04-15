@@ -8,9 +8,22 @@
 
 ***
 hoisting
+global scope
 block scope
-lexical scope
+lexical scope/lexical enviroment
 closures
 different ways to define a function
 rest arguement
 higher order functions
+prototype chain
+call(), apply(), bind()
+first order function
+first class function
+unary function
+IIFE
+destruction
+spread
+construction
+
+
+
