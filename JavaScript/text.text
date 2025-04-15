@@ -11,6 +11,7 @@ hoisting
 global scope
 block scope
 lexical scope/lexical enviroment
+scope chain
 closures
 different ways to define a function
 rest arguement
@@ -25,7 +26,6 @@ destruction
 spread
 construction
 pure function
-
-
+callback
 
 
